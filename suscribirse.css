@@ -1,0 +1,44 @@
+body{
+    font-size: 1.1rem;
+    font-weight: 300;
+    background-color:#212529;
+    color:white;
+    letter-spacing: 0.1em;
+}
+.btn{ /*modifico el color de los botones de bootstrap*/
+    background-color: #DD0A14;
+}
+.p-6{
+    padding: 4rem 7rem;
+}
+
+.contact-box{
+    padding: 3rem;
+}
+
+.form-control{
+    border: 2px solid;
+    border-radius: .2rem;
+    padding: 0.5rem 1rem;
+}
+
+.imagen-bg{
+    background-image: url(imagenes/pelismax.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+@media(max-width: 1200px){
+    .p-6{
+        padding: 2rem;
+    }
+
+    .contact-box{
+        padding: 0;
+    }
+
+    .imagen-bg{
+        min-height: 50vh;
+    }
+}

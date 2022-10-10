@@ -1,0 +1,26 @@
+body{
+    font-size: 1.1rem;
+    font-weight: 300;
+    letter-spacing: 0.1em;
+    padding-top: 100px ;
+
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    position: relative;
+    background-image: url("imagenes/background.jpg");
+    background-repeat: no-repeat;
+}
+
+.btn{ /*modifico el color de los botones de bootstrap*/
+    background-color: #DD0A14;
+}
+
+@media(max-width: 1200px){
+    header img{
+        width: 20em;
+    }
+}
